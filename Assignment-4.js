@@ -7,6 +7,7 @@ function calculateVAT(price) {
     }
 }
 
+
 function validContact(contact) {
     if (typeof contact !== "string") {
         return "Invalid"
@@ -18,6 +19,7 @@ function validContact(contact) {
         return false
     }
 }
+
 
 function willSuccess(marks) {
     if (!Array.isArray(marks)) {
@@ -41,6 +43,7 @@ function willSuccess(marks) {
     }
 }
 
+
 function validProposal(person1, person2) {
     if (typeof person1 !== "object" || typeof person2 !== "object" || Array.isArray(person1) || Array.isArray(person2)) {
         return "Invalid"
@@ -54,6 +57,7 @@ function validProposal(person1, person2) {
         return false
     }
 }
+
 
 function calculateSleepTime(times) {
     if (!Array.isArray(times)) {
